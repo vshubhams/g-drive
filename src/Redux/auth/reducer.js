@@ -14,7 +14,6 @@ export const authReducer = (state=initState,{type,payload})=>{
             }
         }
         case SIGN_UP_SUCCESS:{
-            saveData("token",payload);
             return {
                ...state,
                isAuth:true,
