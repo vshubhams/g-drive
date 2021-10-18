@@ -1,5 +1,4 @@
 import { SIGN_UP_FAILURE, SIGN_UP_REQUEST, SIGN_UP_SUCCESS } from "./actionTypes";
-import auth from "../../firebase"
 export const signUpRequest=()=>{
     return{
         type:SIGN_UP_REQUEST
